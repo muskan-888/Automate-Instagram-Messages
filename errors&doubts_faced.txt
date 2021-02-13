@@ -1,0 +1,6 @@
+1.selenium.common.exceptions.StaleElementReferenceException: Message:stale element reference: element is not attached to the page document
+  [worked for first two usernames and then this error]
+  What I did?
+  updated self.message again before adding it to the text area.
+  Possible Reason of error: Since the DOM has changed e.g. through the update action, you are receiving a StaleElementReference Error. 
+
