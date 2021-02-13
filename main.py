@@ -100,7 +100,7 @@ class bot:
             time.sleep(2) 
   
 def init(): 
-    bot('muskan_sh888', 'muskan@8', audience, message) 
+    bot('username', 'password', audience, message) 
   
     # when our program ends it will show "done". 
     input("DONE") 
